@@ -1,0 +1,13 @@
+body{
+    background-color: #FFEBFD;
+}
+
+.bg-doceria{
+    background-color: #FED4F0; /* rosa claro */
+}
+
+
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+}
