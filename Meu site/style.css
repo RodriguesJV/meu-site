@@ -1,0 +1,280 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color: #FFEBFD;   
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.bg-footer{
+    background-color: #510237;
+}
+
+.links{
+    text-decoration: none;
+    list-style: none;
+}
+.bg-doceria{
+    background-color: #FED4F0; 
+}
+
+.nav-link {
+  position: relative;
+  display: inline-flexbox;
+  color: black; 
+  text-decoration: none;
+  padding-bottom: 5px;
+  transition: color 0.1s;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: black; 
+  transition: width 0.1s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+}
+
+.carousel-item img{
+    width: 850px;
+    height:500px;
+    
+}
+
+#carouselExampleCaptions{
+    width: 850px;
+    height: 500px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+.destaque{
+    margin: 15px;
+}
+.destaque hr{
+    border: none;
+    background-color: black;
+    height: 3px;
+    margin-bottom: 15px;
+}
+
+.card{
+    
+    margin:auto;
+    margin-bottom: 30px;
+}
+
+.card img{
+    height: 300px;
+
+}
+
+#accordionFlushExample{
+    margin:auto;
+    width: 1000px;
+    margin-top: 100px;
+    margin-bottom: 150px ;
+}
+
+#sobreimg{
+    margin: auto;
+    width: 1200px;
+    
+}
+
+#sobreimg img{
+    width: 100%;
+    height: 500px;
+}
+#textap{
+    margin: 50px;
+}
+#textap p{
+    text-align: justify;
+}
+
+#imgsobre{
+    display: flex;
+    margin: auto;
+    
+}
+
+#imgsobre img{
+    width:400px;
+    display: flex;
+    margin-inline-end: 150px;
+    margin-bottom: 70px;
+
+}
+
+#banner1{
+    width: 1200px;
+    height: 550px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+#banner1 img{
+    width: 1200px;
+    height: 550px;
+}
+.menu_container{
+    margin: auto;
+}
+.menu_container ul{
+    display: flex ;
+    list-style: none;
+}
+.docesb {
+    background-color: #AA069A;
+    width: 180px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    display: flex;
+    
+}
+
+#doces{
+    display: inline-block;
+    border: none;
+    background-color: #F01F7A;
+    width: 180px;
+    border-radius: 10px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.menu_container ul li a{
+    text-decoration: none;
+    color: white;
+}
+#prodh4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#sobremesas{
+    margin-bottom: 100px;
+}
+.form-label{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+
+#formulario{
+    display: block;
+    background-color: white;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: auto;
+    width: 800px;
+    
+    margin-bottom: 50px;
+    gap: 12px;
+    flex-direction: column;
+}    
+#formulario1{
+    display: block;
+    background-color: white;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: auto;
+    width: 800px;
+    
+    margin-bottom: 50px;
+    gap: 12px;
+    flex-direction: column;
+}    
+
+#buttonform{ 
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#input{
+    width: 770px;
+    margin-left: 5px;
+    border: 1px solid #cccccc;
+}
+
+#mensagem{
+    width: 770px;
+    margin-left: 5px;
+    height: 100px;
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid #cccccc;
+}
+
+#h3form{
+    margin: 15px;
+}
+
+#maps{
+    display:flex;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#redes_social a img{
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 40px;
+}
+#redes_social{
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+    margin: 10px;
+}
+
+#imgend img{
+    margin-left: 30px;
+    margin: auto;
+    width: 300px;
+    margin-left: 100px;
+    display: flex;
+    margin-bottom: 100px;
+}
+#imgend{
+    display: flex;
+    
+    margin: auto;
+    
+}
